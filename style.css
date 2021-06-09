@@ -9,7 +9,7 @@ body {
   background: url('https://images.unsplash.com/photo-1549319692-4ce3a9c2e1a6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1953&q=80');
   background-repeat: no-repeat;
   background-position: center;
-  background-size: center/cover;
+  background-size: cover;
   color: #fff;
   height: 100vh;
   font-family: 'Montserrat', sans-serif;
@@ -34,7 +34,7 @@ body::after {
 }
 
 body * {
-  z-index: 10;
+  z-index: 1;
 }
 
 img {
